@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+}
+
+
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 400px;
+  margin: 70px auto;
+  height: 60vh;
+  border-radius: 16px;
+  color: #fff;
+  background-color: #3a3263;
+}
+
+.btn{
+  border: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin-left: 20px;
+}
+
+.btn-decrease{
+  background-color: rgb(244, 50, 50);
+  box-shadow: 0 4px rgb(182, 40, 40);
+}
+.btn-decrease:active {
+  box-shadow: 0px 0px rgb(132, 30, 30);
+  transform: translateY(4px);
+}
+.btn-reset{
+  background-color: #000;
+  box-shadow: 0px 4px rgb(32, 32, 32);
+}
+.btn-reset:active{
+  box-shadow: 0px 0px rgb(32, 32, 32);
+  transform: translateY(4px);
+}
+
+.btn-increase{
+  background-color: rgb(27, 228, 111);
+  box-shadow: 0px 4px rgb(14, 127, 61);
+}
+.btn-increase:active{
+  box-shadow: 0px 0px rgb(14, 127, 61);
+  transform: translateY(4px);
+}
+.countNum{
+  font-size: 50px;
+  text-shadow: 4px 4px #302f2f
+}
+
+h1{
+  font-size: 40px;
+}
