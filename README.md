@@ -10,3 +10,4 @@ It includes the concepts of React with small and simple applications, and the wo
 | [03-Reviews](#03-reviews)                      |
 | [04-Counter](#04-counter)                      |
 | [05-Accordion](#05-accordion)                  |
+| [06-Menu](#06-menu)                            |
